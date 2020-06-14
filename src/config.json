@@ -13,6 +13,11 @@
             "id": "github",
             "path": "https://github.com/deeajay",
             "icon": "fab fa-lg fa-github"
+        },
+        {
+            "id": "medium",
+            "path": "https://medium.com/@deekonda.ajay",
+            "icon": "fab fa-lg fa-medium"
         }
     ],
     "details": [
@@ -33,6 +38,45 @@
             "name": "Email",
             "value": "ajay@deekonda.com",
             "type": "link"
+        }
+    ],
+    "sections": [
+        {
+            "header": {
+                "name": "Intro",
+                "tag": "What I am all about."
+            },
+            "type": "para",
+            "content": [
+                {"content":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aaliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo. Suspendisse potenti. Nulla vitae mauris non felis mollis faucibus."},
+                {"content":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aaliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo. Suspendisse potenti. Nulla vitae mauris non felis mollis faucibus."}
+            ]
+        },
+        {
+            "header": {
+                "name": "Expertise",
+                "tag": "Batman would be jealous."
+            },
+            "type": "numbered",
+            "content": [
+                {"number":"01","percentage":false,"header":"Advanced CSS","content":"Cras ornare tristique elit lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id."},
+                {"number":"02","percentage":false,"header":"Front-end Design","content":"Sed adipiscing ornare risus. Morbi est est, blandit sit amet, sagittis vel, euismod vel, velit. Pellentesque egestas sem. Suspendisse commodo ullamcorper magna. Ut aliquam sollicitudin leo."}
+            ]
+        },
+        {
+            "header": {
+                "name": "Skills",
+                "tag": "Progress bars, anyone?"
+            },
+            "type": "numbered",
+            "content": [
+                {"number":"80","percentage":true,"header":"Bootstrap"},
+                {"number":"80","percentage":true,"header":"CSS"},
+                {"number":"80","percentage":true,"header":"CSS1"},
+                {"number":"80","percentage":true,"header":"CSS2"},
+                {"number":"80","percentage":true,"header":"CSS3"},
+                {"number":"80","percentage":true,"header":"React"}
+            ]
         }
     ]
 }
