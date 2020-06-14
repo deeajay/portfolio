@@ -57,7 +57,7 @@ class Container extends Component {
                                                 configData.social.map(function (innerData, index) {
                                                     return (
                                                         <li className="a-header" key={index}>
-                                                            <a href={innerData.path} target="_blank" className="c-social-button  t-social-button">
+                                                            <a href={innerData.path} target="_blank" className="c-social-button  t-social-button" rel="noopener noreferrer" >
                                                                 <i className={innerData.icon}></i>
                                                             </a>
                                                         </li>
@@ -83,7 +83,7 @@ class Container extends Component {
                                                     return (<div className="o-grid__col-md-3  o-grid__col-sm-6" key={index}>
                                                         <div className="o-content">
                                                             <div className="o-content__body">
-                                                                {innerData.type === "link" ? <a href={innerData.value} target="_blank" className="t-link-container">{innerContent}</a> : innerContent}
+                                                                {innerData.type === "link" ? <a href={innerData.value} target="_blank" className="t-link-container" rel="noopener noreferrer" >{innerContent}</a> : innerContent}
                                                             </div>
                                                         </div>
                                                     </div>)
