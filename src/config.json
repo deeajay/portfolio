@@ -48,9 +48,14 @@
             },
             "type": "para",
             "content": [
-                {"content":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aaliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo. Suspendisse potenti. Nulla vitae mauris non felis mollis faucibus."},
-                {"content":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aaliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo. Suspendisse potenti. Nulla vitae mauris non felis mollis faucibus."}
-            ]
+                {
+                    "content": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aaliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo. Suspendisse potenti. Nulla vitae mauris non felis mollis faucibus."
+                },
+                {
+                    "content": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aaliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo. Suspendisse potenti. Nulla vitae mauris non felis mollis faucibus."
+                }
+            ],
+            "display": false
         },
         {
             "header": {
@@ -59,9 +64,32 @@
             },
             "type": "numbered",
             "content": [
-                {"number":"01","percentage":false,"header":"Advanced CSS","content":"Cras ornare tristique elit lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id."},
-                {"number":"02","percentage":false,"header":"Front-end Design","content":"Sed adipiscing ornare risus. Morbi est est, blandit sit amet, sagittis vel, euismod vel, velit. Pellentesque egestas sem. Suspendisse commodo ullamcorper magna. Ut aliquam sollicitudin leo."}
-            ]
+                {
+                    "number": "01",
+                    "percentage": false,
+                    "header": "Logic Building",
+                    "content": ""
+                },
+                {
+                    "number": "02",
+                    "percentage": false,
+                    "header": "Optimization",
+                    "content": ""
+                },
+                {
+                    "number": "03",
+                    "percentage": false,
+                    "header": "DevOps",
+                    "content": ""
+                },
+                {
+                    "number": "04",
+                    "percentage": false,
+                    "header": "Frontend UI/ UX",
+                    "content": ""
+                }
+            ],
+            "display": true
         },
         {
             "header": {
@@ -70,13 +98,33 @@
             },
             "type": "numbered",
             "content": [
-                {"number":"80","percentage":true,"header":"Bootstrap"},
-                {"number":"80","percentage":true,"header":"CSS"},
-                {"number":"80","percentage":true,"header":"CSS1"},
-                {"number":"80","percentage":true,"header":"CSS2"},
-                {"number":"80","percentage":true,"header":"CSS3"},
-                {"number":"80","percentage":true,"header":"React"}
-            ]
+                {
+                    "number": "95",
+                    "percentage": true,
+                    "header": "Backend"
+                },
+                {
+                    "number": "90",
+                    "percentage": true,
+                    "header": "Frontend UI/ UX"
+                },
+                {
+                    "number": "80",
+                    "percentage": true,
+                    "header": "DevOps"
+                },
+                {
+                    "number": "95",
+                    "percentage": true,
+                    "header": "Databases"
+                },
+                {
+                    "number": "95",
+                    "percentage": true,
+                    "header": "Analytics"
+                }
+            ],
+            "display": true
         }
     ]
 }

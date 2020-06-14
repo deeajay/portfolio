@@ -6,6 +6,10 @@ class Sections extends Component {
 
         let SectionContent = configData.sections.map(function (innerData, index) {
 
+            if (innerData.display === false) {
+                return null;
+            }
+
             let actualContent = null;
 
             switch (innerData.type) {
@@ -57,6 +61,9 @@ class Sections extends Component {
                             </div>
                         </div>
                     </div>
+                    break;
+                default:
+                    actualContent = "";
                     break;
             }
 
