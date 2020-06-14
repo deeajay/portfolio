@@ -1,0 +1,38 @@
+{
+    "firstName": "Ajay",
+    "lastName": "Deekonda",
+    "tagLine": "Web Developer & Front-end Expert",
+    "profilePic": "assets/images/header/ajay_deekonda.jpg",
+    "social": [
+        {
+            "id": "linkedin",
+            "path": "https://www.linkedin.com/in/ajaydeekonda/",
+            "icon": "fab fa-lg fa-linkedin"
+        },
+        {
+            "id": "github",
+            "path": "https://github.com/deeajay",
+            "icon": "fab fa-lg fa-github"
+        }
+    ],
+    "details": [
+        {
+            "name": "Location",
+            "value": "Mumbai, India"
+        },
+        {
+            "name": "Phone",
+            "value": "+91-897630 3976"
+        },
+        {
+            "name": "Web",
+            "value": "https://ajay.deekonda.com",
+            "type": "link"
+        },
+        {
+            "name": "Email",
+            "value": "ajay@deekonda.com",
+            "type": "link"
+        }
+    ]
+}
