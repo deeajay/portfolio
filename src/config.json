@@ -99,27 +99,27 @@
             "type": "numbered",
             "content": [
                 {
-                    "number": "95",
+                    "number": 95,
                     "percentage": true,
                     "header": "Backend"
                 },
                 {
-                    "number": "90",
+                    "number": 90,
                     "percentage": true,
                     "header": "Frontend UI/ UX"
                 },
                 {
-                    "number": "80",
+                    "number": 80,
                     "percentage": true,
                     "header": "DevOps"
                 },
                 {
-                    "number": "95",
+                    "number": 95,
                     "percentage": true,
                     "header": "Databases"
                 },
                 {
-                    "number": "95",
+                    "number": 95,
                     "percentage": true,
                     "header": "Analytics"
                 }

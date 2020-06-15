@@ -35,7 +35,7 @@ class Sections extends Component {
                                     {
                                         contentData.percentage ?
                                             <div class="c-progress-bar  o-content__body  t-border-color-bg  u-mt-text">
-                                                <div class="a-progress-bar  c-progress-bar__filler  t-primary-bg" data-percent="80"></div>
+                                                <div class="a-progress-bar  c-progress-bar__filler  t-primary-bg" data-percent={contentData.number*1}></div>
                                             </div> : null
                                     }
                                 </div>
