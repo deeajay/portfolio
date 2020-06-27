@@ -49,17 +49,17 @@
             "type": "para",
             "content": [
                 {
-                    "content": "I am an efficient engineer passionate about innovative products development, tackling problems with optimistic solutions, being a self entrepreneur is a dream."
+                    "content": "I am an efficient engineer, passionate about innovative products development, tackling problems with optimistic solutions, being a self entrepreneur is a dream."
                 },
                 {
-                    "content": "Built an enterprise grid analytics tool with a 3 member team. We served 30+ enterprise clients which include top NBFCs/ Retails from India."
+                    "content": "Built an enterprise grid analytics tool with a 3 member team. Also, we tried to manage 30+ enterprise clients which include top NBFCs/ Retails of India with the same 3 member team. Later we scaled the team size."
                 }
             ],
             "display": true
         },
         {
             "header": {
-                "name": "Expertise",
+                "name": "Expertise/ Skills",
                 "tag": "Batman would be jealous."
             },
             "type": "numbered",
