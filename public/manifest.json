@@ -3,24 +3,23 @@
     "name": "Ajay Deekonda | Product Architect",
     "icons": [
         {
-            "src": "favicon.ico",
+            "src": "/favicons/logo48.png",
             "sizes": "48x48",
-            "type": "image/x-icon"
+            "type": "image/png"
         },
         {
-            "src": "favicon.ico",
-            "sizes": "192x192",
-            "type": "image/x-icon"
+            "src": "/favicons/logo192.png",
+            "type": "image/png",
+            "sizes": "192x192"
         },
         {
-            "src": "favicon.ico",
-            "sizes": "512x512",
-            "type": "image/x-icon"
+            "src": "/favicons/logo512.png",
+            "type": "image/png",
+            "sizes": "512x512"
         }
     ],
-    "start_url": "/",
+    "start_url": ".",
     "display": "standalone",
     "theme_color": "#000000",
-    "background_color": "#ffffff",
-    "orientation": "portrait"
+    "background_color": "#ffffff"
 }
