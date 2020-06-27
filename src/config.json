@@ -134,12 +134,6 @@
                     "content": "Docker, VSTS, CircleCI"
                 },
                 {
-                    "number": 60,
-                    "percentage": true,
-                    "header": "NLP & NLG",
-                    "content": ""
-                },
-                {
                     "number": 70,
                     "percentage": true,
                     "header": "Team Management",
