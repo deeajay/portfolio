@@ -1,10 +1,10 @@
 {
     "firstName": "Ajay",
     "lastName": "Deekonda",
-    "tagLine": "Product Architect & Self Entrepreneur",
+    "tagLine": "Product Architect & Entrepreneur",
     "profilePic": "assets/images/header/ajay_deekonda.jpg",
     "introContent" : [
-        "Efficient engineer, passionate about innovative product development, tackling problems with optimized solutions, being a self entrepreneur is a dream.",
+        "Efficient engineer, passionate about innovative product development, tackling problems with optimized solutions, being an entrepreneur is a dream.",
         "Built an enterprise grid analytics tool with a 3 member team. Managed 30+ enterprise clients which include top NBFC and Retail Companies of India"
     ],
     "introContactInfo": false,
