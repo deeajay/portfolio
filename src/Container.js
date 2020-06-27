@@ -69,7 +69,17 @@ class Container extends Component {
 
                                     </div>
 
-                                    <div className="c-header__contact">
+
+                                    {configData.introContent ?
+                                        <div className="c-header__contact c-intro" style={{ position: "relative" }}>
+                                            <hr className="a-header  c-header__contact-divider" />
+                                            {configData.introContent.map(function (contentData) {
+                                                return <p>{contentData}</p>
+                                            })}
+                                        </div>
+                                        : null}
+
+                                    <div className="c-header__contact" style={{ position: "relative" }}>
 
                                         <hr className="a-header  c-header__contact-divider" />
                                         <Contact />

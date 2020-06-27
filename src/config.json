@@ -1,8 +1,12 @@
 {
     "firstName": "Ajay",
     "lastName": "Deekonda",
-    "tagLine": "Web Developer & Front-end Expert",
+    "tagLine": "Product Architect & Self Entrepreneur",
     "profilePic": "assets/images/header/ajay_deekonda.jpg",
+    "introContent" : [
+        "Efficient engineer, passionate about innovative product development, tackling problems with optimized solutions, being a self entrepreneur is a dream.",
+        "Built an enterprise grid analytics tool with a 3 member team. Managed 30+ enterprise clients which include top NBFC and Retail Companies of India"
+    ],
     "social": [
         {
             "id": "linkedin",
@@ -49,10 +53,10 @@
             "type": "para",
             "content": [
                 {
-                    "content": "I am an efficient engineer, passionate about innovative products development, tackling problems with optimistic solutions, being a self entrepreneur is a dream."
+                    "content": "Efficient engineer, passionate about innovative product development, tackling problems with optimizing solutions, being a self entrepreneur is a dream."
                 },
                 {
-                    "content": "Built an enterprise grid analytics tool with a 3 member team. Also, we tried to manage 30+ enterprise clients which include top NBFCs/ Retails of India with the same 3 member team. Later we scaled the team size."
+                    "content": "Built an enterprise grid analytics tool with a 3 member team. Managed 30+ enterprise clients which include top NBFCs/ Retails of India"
                 }
             ],
             "display": true
@@ -89,11 +93,11 @@
                     "content": ""
                 }
             ],
-            "display": true
+            "display": false
         },
         {
             "header": {
-                "name": "Skills",
+                "name": "Expertise/ Skills",
                 "tag": "Progress bars, anyone?"
             },
             "type": "numbered",
@@ -101,27 +105,80 @@
                 {
                     "number": 95,
                     "percentage": true,
-                    "header": "Backend"
+                    "header": "Database (MySql, Columnstore DB, SQL Server, Redshift)"
                 },
                 {
                     "number": 90,
                     "percentage": true,
-                    "header": "Frontend UI/ UX"
+                    "header": "API and logics (Java, PHP, Python)"
                 },
                 {
                     "number": 80,
                     "percentage": true,
-                    "header": "DevOps"
+                    "header": "Automated testing (Selenium, jMeter)"
                 },
                 {
                     "number": 95,
                     "percentage": true,
-                    "header": "Databases"
+                    "header": "Frontend designing (Gatsby, React)"
                 },
                 {
                     "number": 95,
                     "percentage": true,
-                    "header": "Analytics"
+                    "header": "DevOps (Docker, VSTS, CircleCI)"
+                }
+            ],
+            "display": true
+        },
+        {
+            "header": {
+                "name": "Experience",
+                "tag": "Progress bars, anyone?"
+            },
+            "type": "timeline",
+            "content": [
+                {
+                    "year": "2016 - 2020",
+                    "name": "Rockmetric Innovation Private Limited",
+                    "role": "Product Architect",
+                    "location": "Mumbai, India",
+                    "description": ["Conducted workshop on Creating website using Bootstrap for over 50 students. Conducted workshop on Creating website using Material Design for over 50 students. Conducted workshop on Photoshop for over 50 students. Invited as a Judge for the Website Development Event."]
+                },
+                {
+                    "year": "2010 – 2012",
+                    "name": "IIT Bombay",
+                    "role": "Software Engineer Intern",
+                    "location": "Mumbai, India",
+                    "description": ["Conducted workshop on Creating website using Bootstrap for over 50 students. Conducted workshop on Creating website using Material Design for over 50 students. Conducted workshop on Photoshop for over 50 students. Invited as a Judge for the Website Development Event."]
+                },
+                {
+                    "year": "2000 – 2010",
+                    "name": "A.E.S High School",
+                    "role": "HSC (Maharashtra State Board)",
+                    "location": "Mumbai, India",
+                    "description": ["Conducted workshop on Creating website using Bootstrap for over 50 students. Conducted workshop on Creating website using Material Design for over 50 students. Conducted workshop on Photoshop for over 50 students. Invited as a Judge for the Website Development Event."]
+                }
+            ],
+            "display": true
+        },
+        {
+            "header": {
+                "name": "Education",
+                "tag": "Progress bars, anyone?"
+            },
+            "type": "timeline",
+            "content": [
+                {
+                    "year": "2012 - 2016",
+                    "name": "VIDYALANKAR INSTITUTE OF TECHNOLOGY",
+                    "role": "Information Technology (Mumbai University)",
+                    "location": "Mumbai, India"
+                },
+                {
+                    "year": "2010 – 2012",
+                    "name": "A.E.S Junior School",
+                    "role": "HSC (Maharashtra State Board)",
+                    "location": "Mumbai, India"
                 }
             ],
             "display": true

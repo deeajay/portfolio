@@ -35,7 +35,7 @@ class Sections extends Component {
                                     {
                                         contentData.percentage ?
                                             <div className="c-progress-bar  o-content__body  t-border-color-bg  u-mt-text">
-                                                <div className="a-progress-bar  c-progress-bar__filler  t-primary-bg" data-percent={contentData.number*1}></div>
+                                                <div className="a-progress-bar  c-progress-bar__filler  t-primary-bg" data-percent={contentData.number * 1}></div>
                                             </div> : null
                                     }
                                 </div>
@@ -47,6 +47,37 @@ class Sections extends Component {
                             {actualContent}
                         </div>
                     </div>;
+                    break;
+                case "timeline":
+                    actualContent = innerData.content.map(function (contentData, index) {
+                        return (
+                            <div className="c-timeline__item" key={`year_${contentData.year}`}>
+                                <div className="c-timeline__point  t-timeline__point  t-primary-bg"></div>
+                                <div className="o-content">
+                                    <div className="o-grid">
+                                        <div className="o-grid__col-md-12">
+                                            {contentData.year ? <div className="c-work__timeframe">{contentData.year}</div> : null}
+                                            {contentData.name ? <h3 className="c-work__heading">{contentData.name}</h3> : null}
+                                            {contentData.role ? <h4 className="c-work__title">{contentData.role}</h4> : null}
+                                            {contentData.location ? <div className="c-work__location">{contentData.location}</div> : null}
+                                        </div>
+                                        {/* {contentData.description ? <div className="o-grid__col-md-7">
+                                            {contentData.description.map(function(contentDescription){
+                                                return <p>{contentDescription}</p>
+                                            })}
+                                            </div> : null} */}
+                                    </div>
+                                </div>
+                            </div>)
+                    });
+                    actualContent = <div className="o-section__content t-section__content">
+                        <div className="o-content">
+                            <div class="a-education-timeline  c-timeline  t-border-color  o-section__full-top-space">
+                                <div class="c-timeline__end  t-border-color"></div>
+                                {actualContent}
+                            </div>
+                        </div>
+                    </div>
                     break;
                 case "para":
                     actualContent = innerData.content.map(function (contentData, index) {
