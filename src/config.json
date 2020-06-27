@@ -7,6 +7,7 @@
         "Efficient engineer, passionate about innovative product development, tackling problems with optimized solutions, being a self entrepreneur is a dream.",
         "Built an enterprise grid analytics tool with a 3 member team. Managed 30+ enterprise clients which include top NBFC and Retail Companies of India"
     ],
+    "introContactInfo": false,
     "social": [
         {
             "id": "linkedin",
@@ -59,7 +60,7 @@
                     "content": "Built an enterprise grid analytics tool with a 3 member team. Managed 30+ enterprise clients which include top NBFCs/ Retails of India"
                 }
             ],
-            "display": true
+            "display": false
         },
         {
             "header": {

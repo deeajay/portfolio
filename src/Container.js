@@ -79,11 +79,11 @@ class Container extends Component {
                                         </div>
                                         : null}
 
-                                    <div className="c-header__contact" style={{ position: "relative" }}>
+                                    {configData.introContactInfo ? <div className="c-header__contact" style={{ position: "relative" }}>
 
                                         <hr className="a-header  c-header__contact-divider" />
                                         <Contact />
-                                    </div>
+                                    </div> : null}
 
                                 </div>
                             </div>
