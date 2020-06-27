@@ -49,13 +49,13 @@
             "type": "para",
             "content": [
                 {
-                    "content": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aaliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo. Suspendisse potenti. Nulla vitae mauris non felis mollis faucibus."
+                    "content": "I am an efficient engineer passionate about innovative products development, tackling problems with optimistic solutions, being a self entrepreneur is a dream."
                 },
                 {
-                    "content": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aaliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo. Suspendisse potenti. Nulla vitae mauris non felis mollis faucibus."
+                    "content": "Built an enterprise grid analytics tool with a 3 member team. We served 30+ enterprise clients which include top NBFCs/ Retails from India."
                 }
             ],
-            "display": false
+            "display": true
         },
         {
             "header": {
