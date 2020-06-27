@@ -16,34 +16,34 @@ class Sections extends Component {
                 case "numbered":
                     actualContent = innerData.content.map(function (contentData, index) {
                         return (
-                            <div class="o-grid__col-sm-6">
-                                <div class="o-content">
-                                    <div class="o-media  o-media--block">
+                            <div className="o-grid__col-sm-6">
+                                <div className="o-content">
+                                    <div className="o-media  o-media--block">
                                         {
                                             contentData.number ?
-                                                <div class="o-media__figure">
-                                                    <div class="c-number  t-primary-color">
+                                                <div className="o-media__figure">
+                                                    <div className="c-number  t-primary-color">
                                                         {contentData.number}{contentData.percentage ? <small>%</small> : null}
                                                     </div>
                                                 </div> : null
                                         }
-                                        <div class="o-media__body  o-content__body">
+                                        <div className="o-media__body  o-content__body">
                                             <h3>{contentData.header}</h3>
                                             {contentData.content ? <p>{contentData.content}</p> : null}
                                         </div>
                                     </div>
                                     {
                                         contentData.percentage ?
-                                            <div class="c-progress-bar  o-content__body  t-border-color-bg  u-mt-text">
-                                                <div class="a-progress-bar  c-progress-bar__filler  t-primary-bg" data-percent={contentData.number*1}></div>
+                                            <div className="c-progress-bar  o-content__body  t-border-color-bg  u-mt-text">
+                                                <div className="a-progress-bar  c-progress-bar__filler  t-primary-bg" data-percent={contentData.number*1}></div>
                                             </div> : null
                                     }
                                 </div>
                             </div>
                         )
                     })
-                    actualContent = <div class="o-section__content  t-section__content  ">
-                        <div class="o-grid">
+                    actualContent = <div className="o-section__content  t-section__content  ">
+                        <div className="o-grid">
                             {actualContent}
                         </div>
                     </div>;
@@ -52,10 +52,10 @@ class Sections extends Component {
                     actualContent = innerData.content.map(function (contentData, index) {
                         return (<p>{contentData.content}</p>)
                     });
-                    actualContent = <div class="o-section__content t-section__content">
-                        <div class="o-content">
-                            <div class="c-intro">
-                                <div class="o-content__body">
+                    actualContent = <div className="o-section__content t-section__content">
+                        <div className="o-content">
+                            <div className="c-intro">
+                                <div className="o-content__body">
                                     {actualContent}
                                 </div>
                             </div>
