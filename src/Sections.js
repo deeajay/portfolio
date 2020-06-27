@@ -1,6 +1,15 @@
 import React, { Component } from 'react';
 import configData from './config.json';
 
+const imgCSS= {    
+    float: "right",
+    width: "100px",
+    height: "100px",
+    borderRadius: "100%",
+    background: "white",
+    padding: "15px"
+}
+
 class Sections extends Component {
     render() {
 
@@ -56,10 +65,12 @@ class Sections extends Component {
                                 <div className="o-content">
                                     <div className="o-grid">
                                         <div className="o-grid__col-md-12">
+                                            {contentData.logo ? <img src={contentData.logo} alt="" style={imgCSS}/> : null}
                                             {contentData.year ? <div className="c-work__timeframe">{contentData.year}</div> : null}
                                             {contentData.name ? <h3 className="c-work__heading">{contentData.name}</h3> : null}
                                             {contentData.role ? <h4 className="c-work__title">{contentData.role}</h4> : null}
                                             {contentData.location ? <div className="c-work__location">{contentData.location}</div> : null}
+                                            {contentData.description ? <p>{contentData.description}</p> : null}
                                         </div>
                                         {/* {contentData.description ? <div className="o-grid__col-md-7">
                                             {contentData.description.map(function(contentDescription){
