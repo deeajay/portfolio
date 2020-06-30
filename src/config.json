@@ -5,7 +5,7 @@
     "profilePic": "assets/images/header/ajay_deekonda.jpg",
     "introContent" : [
         "Efficient engineer, passionate about innovative product development, tackling problems with optimized solutions, being an entrepreneur is a dream.",
-        "Built an enterprise grid analytics tool with a 3 member team. Managed 30+ enterprise clients which include top NBFC and Retail Companies of India"
+        "Built an enterprise grid analytics tool with a 3 member team. Managed 30+ enterprise clients which include top NBFC and Retail Companies of India."
     ],
     "introContactInfo": false,
     "social": [
@@ -148,18 +148,18 @@
                 "tag": "The only of source of knowledge is experience"
             },
             "type": "timeline",
-            "content": [
-                {
+            "content": {
+                "rockmetric":{
                     "year": "2016 - 2020",
                     "name": "Rockmetric Innovation Private Limited",
                     "role": "Product Architect",
                     "location": "Mumbai, India",
                     "description": "Rockmetric is a Cognitive Analytics Platform that automates analysis and insights with a simple Google-like 'Natural Language Search' interface. Large enterprises can deliver sophisticated analysis and ad-hoc queries at scale without having to expand reporting and analytics teams.",
-                    "moreButton": true,
+                    "moreButton": false,
                     "detailedDescription":"Special prize winner Tantra Vihar 2016. Founded a crowdsourced P2P web platform, HelpMaps, creating an impact to a community of volunteers in India. Ideated and tested implementation of features like identity management, gamification for incentivising community participation and enhanced location-based pinning for accuracy using Google Maps API import Structured the software development process by using agile practices like developing product roadmaps, maintaining sprint backlogs, and documenting opportunities for improvements Designed end-to-end user journeys by building UML diagrams, prototypes, conducting A/B tests, and incorporating user needs",
                     "logo": "https://www.rockmetric.com/wp-content/uploads/2019/03/cropped-favicon-180x180.png"
                 },
-                {
+                "peepalLabs":{
                     "year": "2015 – 2019",
                     "name": "Peepal Labs",
                     "role": "Co Founder",
@@ -167,27 +167,27 @@
                     "description": "Peepal Labs provide 3 different types of solutions namely Web Development, APP Development and Desktop Applications Development.",
                     "logo": "/assets/images/logos/peepallabs.jpeg"
                 },
-                {
+                "finalyear":{
                     "year": "2015 – 2016",
                     "name": "IIT Bombay",
                     "role": "Final Year Project",
                     "location": "Mumbai, India",
                     "description": "Special prize winner Tantra Vihar 2016. Founded a crowdsourced P2P web platform, HelpMaps, creating an impact to a community of volunteers in India.",
-                    "moreButton": true,
+                    "moreButton": false,
                     "detailedDescription":"Special prize winner Tantra Vihar 2016. Founded a crowdsourced P2P web platform, HelpMaps, creating an impact to a community of volunteers in India. Ideated and tested implementation of features like identity management, gamification for incentivising community participation and enhanced location-based pinning for accuracy using Google Maps API import Structured the software development process by using agile practices like developing product roadmaps, maintaining sprint backlogs, and documenting opportunities for improvements Designed end-to-end user journeys by building UML diagrams, prototypes, conducting A/B tests, and incorporating user needs",
                     "logo": "/assets/images/logos/IIT.png"
                 },
-                {
+                "IITbombay":{
                     "year": "06/2015 – 08/2015",
                     "name": "IIT Bombay",
                     "role": "Software Developer Internship",
                     "location": "Mumbai, India",
                     "description":"Virtual Labs team, a Ministry of Human Resource Development Project. Our main focus was on development of virtual simulators to carry out various Chemical Engineering Projects.",
-                    "moreButton": true,
+                    "moreButton": false,
                     "detailedDescription": "Virtual Labs team, a Ministry of Human Resource Development Project. Our main focus was on development of virtual simulators to carry out various Chemical Engineering Projects. Python and web tools were the key technologies used in the development process. Special prize winner Tantra Vihar 2016. Founded a crowdsourced P2P web platform, HelpMaps, creating an impact to a community of volunteers in India. Ideated and tested implementation of features like identity management, gamification for incentivising community participation and enhanced location-based pinning for accuracy using Google Maps API import Structured the software development process by using agile practices like developing product roadmaps, maintaining sprint backlogs, and documenting opportunities for improvements Designed end-to-end user journeys by building UML diagrams, prototypes, conducting A/B tests, and incorporating user needs",
                     "logo": "/assets/images/logos/IIT.png"
                 },
-                {
+                "oyeshoppy":{
                     "year": "06/2014 – 12/2014",
                     "name": "Oyeshoppy",
                     "role": "Developer Intern",
@@ -195,14 +195,14 @@
                     "description": "Part of E-Commerce development team. Worked on Magento framework.",
                     "logo": "/assets/images/logos/Oyeshoppy.jpg"
                 },
-                {
+                "HAL":{
                     "year": "06/2014 – 17/2014",
                     "name": "Hindustan Aeronautics Limited",
                     "role": "Technical Intern",
                     "location": "Bangalore, India",
                     "logo": "/assets/images/logos/HAL.png"
                 }
-            ],
+            },
             "display": true
         },
         {
@@ -211,22 +211,22 @@
                 "tag": "Education is freedom"
             },
             "type": "timeline",
-            "content": [
-                {
+            "content": {
+                "VIT":{
                     "year": "2012 - 2016",
                     "name": "VIDYALANKAR INSTITUTE OF TECHNOLOGY",
                     "role": "Information Technology (Mumbai University)",
                     "location": "Mumbai, India",
                     "logo": "/assets/images/logos/VIT.jpeg"
                 },
-                {
+                "AES":{
                     "year": "2010 – 2012",
                     "name": "A.E.S Junior School",
                     "role": "HSC (Maharashtra State Board)",
                     "location": "Mumbai, India",
                     "logo": "/assets/images/logos/AES.jpg"
                 }
-            ],
+            },
             "display": true
         }
     ]

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import configData from './config.json';
+import "./style.css";
 
 const imgCSS= {    
     float: "right",
@@ -58,9 +59,10 @@ class Sections extends Component {
                     </div>;
                     break;
                 case "timeline":
-                    actualContent = innerData.content.map(function (contentData, index) {
+                    actualContent = Object.keys(innerData.content).map(function (contentKey, index) {
+                        let contentData = innerData.content[contentKey];
                         return (
-                            <div className="c-timeline__item" key={`year_${contentData.year}`}>
+                            <div className="c-timeline__item" key={`year_${contentData.year}`} id={contentKey ? contentKey : `year_${contentData.year}`}>
                                 <div className="c-timeline__point  t-timeline__point  t-primary-bg"></div>
                                 <div className="o-content">
                                     <div className="o-grid">
@@ -71,6 +73,7 @@ class Sections extends Component {
                                             {contentData.role ? <h4 className="c-work__title">{contentData.role}</h4> : null}
                                             {contentData.location ? <div className="c-work__location">{contentData.location}</div> : null}
                                             {contentData.description ? <p>{contentData.description}</p> : null}
+                                            {contentData.moreButton ? <button className="btn btn-primary">{`Details`}</button> : null}
                                         </div>
                                         {/* {contentData.description ? <div className="o-grid__col-md-7">
                                             {contentData.description.map(function(contentDescription){
