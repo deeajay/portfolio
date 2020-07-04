@@ -4,11 +4,11 @@ import "./style.css";
 
 const imgCSS= {    
     float: "right",
-    width: "100px",
-    height: "100px",
+    width: "70px",
+    height: "70px",
     borderRadius: "100%",
     background: "white",
-    padding: "15px"
+    padding: "10px"
 }
 
 class Sections extends Component {
