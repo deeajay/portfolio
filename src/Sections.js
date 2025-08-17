@@ -2,12 +2,11 @@ import React, { Component } from 'react';
 import configData from './config.json';
 import "./style.css";
 
-const imgCSS= {    
+const imgCSS = {
     float: "right",
     width: "70px",
     height: "70px",
     borderRadius: "100%",
-    background: "white",
     padding: "10px"
 }
 
@@ -67,7 +66,7 @@ class Sections extends Component {
                                 <div className="o-content">
                                     <div className="o-grid">
                                         <div className="o-grid__col-md-12">
-                                            {contentData.logo ? <img src={contentData.logo} alt="" style={imgCSS}/> : null}
+                                            {contentData.logo ? <img src={contentData.logo} alt="" style={{ ...imgCSS, backgroundColor: contentData.backgroundColor ? contentData.backgroundColor : "white"    }} /> : null}
                                             {contentData.year ? <div className="c-work__timeframe">{contentData.year}</div> : null}
                                             {contentData.name ? <h3 className="c-work__heading">{contentData.name}</h3> : null}
                                             {contentData.role ? <h4 className="c-work__title">{contentData.role}</h4> : null}
@@ -75,11 +74,14 @@ class Sections extends Component {
                                             {contentData.description ? <p>{contentData.description}</p> : null}
                                             {contentData.moreButton ? <button className="btn btn-primary">{`Details`}</button> : null}
                                         </div>
-                                        {/* {contentData.description ? <div className="o-grid__col-md-7">
-                                            {contentData.description.map(function(contentDescription){
-                                                return <p>{contentDescription}</p>
-                                            })}
-                                            </div> : null} */}
+                                        {contentData.detailedDescription ? <div className="o-grid__col-md-12">
+                                            <h4 className="c-work__subheading">Experience Details</h4>
+                                            <ul className="c-work__details">
+                                                {contentData.detailedDescription.map(function (contentDescription, index) {
+                                                    return <li key={index}>{contentDescription}</li>
+                                                })}
+                                            </ul>
+                                        </div> : null}
                                     </div>
                                 </div>
                             </div>)
